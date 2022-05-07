@@ -23,7 +23,7 @@ packer build -var-file=variables.pkrvars.hcl  .
 Lembre-se, a costrução deste template é em cima do Cloud-Init, sendo assim, a configuração de novas VMs a partir dele também deverá seguir este padrão.
 
 Isto é, após o clone do template para uma nova VM, configure o usuário, senha,
-IP, DNS, DOMAIN e SSH Key pela aba através da aba **Cloud-Iinit**
+IP, DNS, DOMAIN e SSH Key através da aba **Cloud-Init**.
 
 ![Exemplo](img/example-cloud-init.png)
 
