@@ -1,14 +1,14 @@
 # packer-ubuntu-22-04
-Arquivos de configuração para a criação de template do Ubuntu Server 22.04 no hyperviso Proxmox.
+Arquivos de configuração para a criação de template do Ubuntu Server 22.04 no hypervisor Proxmox.
 
 ## Pré-equisitos
 
-Crie uma __chave__ e __token__ de acesso, conforme este exemplo: [Proxmox](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs).
+Crie uma __chave__ e um __token__ de acesso, conforme este exemplo: [Proxmox](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs).
 
-Agora exporte a chave, token e url de conxão em seu terminal;
+Agora exporte a chave, token e url de conxão em seu terminal.
 
 ```
-export PROXMOX_URL=https://pve.homelab.app.br/api2/json
+export PROXMOX_URL=https://IP_PROXMOX:8006/api2/json
 export PROXMOX_USERNAME=william@pve!token
 export PROXMOX_TOKEN=xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
 ```
