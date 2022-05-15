@@ -6,13 +6,13 @@ variable "proxmox_api_url" {
 
 variable "proxmox_api_token_id" {
   type        = string
-  default     = "${env("PROMOX_USERNAME")}"
+  default     = "${env("PROXMOX_USERNAME")}"
   description = "Chave gerada no Proxmox"
 }
 
 variable "proxmox_api_token_secret" {
   type        = string
-  default     = "${env("PROMOX_TOKEN")}"
+  default     = "${env("PROXMOX_TOKEN")}"
   description = "Secret token gerado no Proxmox"
 }
 
